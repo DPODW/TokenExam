@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/MainFunction.js"></script>
 <body>
+
 <h1>LOGIN</h1>
-<form method="post" action="">
-<input type="text" name="loginId" placeholder="ID">
-<input type="password" name="loginPwd" placeholder="Password">
-<button type="submit">로그인</button>
-</form>
+
+<input type="text" id="LoginId" name="loginId" placeholder="ID">
+<input type="password" id="LoginPwd" name="loginPwd" placeholder="Password">
+<button type="submit" id="logins">로그인</button>
+
+
 <hr>
+
 <h1>JOIN</h1>
-<form method="post" action="">
-<input type="text" name="joinId" placeholder="ID">
-<input type="password" name="joinPwd" placeholder="Password">
+
+<input type="text" id="JoinId" name="joinId" placeholder="ID">
+<input type="password" id="JoinPwd" name="joinPwd" placeholder="Password">
 <br>
 <input type="radio" name="role" value="user">User
 <input type="radio" name="role" value="admin">Admin
-<button type="submit">회원가입</button>
-</form>
+<button type="submit" id="joins">회원가입</button>
+
+
 <hr>
-<button type="button">User</button>
-<button type="button">Admin</button>
+<button type="button" id="users">User</button>
+<button type="button" id="admins">Admin</button>
 </body>
 </html>
